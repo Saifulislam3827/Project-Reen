@@ -1,0 +1,416 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	font-family: 'Lato', sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Lato', sans-serif;
+}
+a, a:hover{
+	text-decoration: none;
+}
+
+/************************************************
+***************Header Section Code Starts********
+************************************************/
+
+.header-section{
+	width: 100%;
+}
+.header-section .top-header{
+	width: 100%;
+	padding: 10px 0px 0px 0px;
+	background: #f5f7fa;
+}
+.header-section .top-header .details{
+	margin-left: 80px;
+}
+.header-section .top-header .details li{
+	list-style: none;
+	display: inline-block;
+	margin-right: 15px;
+}
+.header-section .top-header .details li a{
+	font-size: 14px;
+	color: #506a85;
+	font-weight: 600;
+}
+.header-section .top-header .details li a i{
+	margin-right: 5px;
+}
+.header-section .top-header .social-icons{
+	text-align: right;
+}
+.header-section .top-header .social-icons li{
+	list-style: none;
+	display: inline-block;
+	margin-right: 15px;
+}
+.header-section .top-header .social-icons li a{
+	font-size: 15px;
+	color: #506a85;
+	margin-right: 3px;
+}
+.header-section .top-header .social-icons li a:hover{
+	color: blue;
+}
+.header-section .main-header{
+	width: 100%;
+}
+.header-section .main-header .bg-light {
+    background-color: #fff !important;
+    padding: 30px 0px;
+}
+.header-section .main-header img{
+    vertical-align: middle;
+    border-style: none;
+    margin-left: 80px;
+}
+.header-section .main-header .navbar-expand-lg .navbar-collapse {
+	padding: 0px 60px;
+}
+.header-section .main-header .navbar-light .navbar-nav .active > .nav-link{
+	color: #506a85;
+	font-size: 15px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.header-section .main-header .navbar-light .navbar-nav .active > .nav-link:hover{
+	color: #00bc9c;
+}
+.header-section .main-header .navbar-light .navbar-nav .nav-link {
+    color: #506a85;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-left: 8px;
+}
+.header-section .main-header .navbar-light .navbar-nav .nav-link:hover{
+	color: #00bc9c;
+}
+.header-section .main-header .search-button a i{
+	color: #506a85;
+}
+.header-section .main-header .search-button a i:hover{
+	color: #00bc9c;
+}
+
+/************************************************
+***************Header Section Code Ends**********
+************************************************/
+
+/************************************************
+***************Slider Section Code Starts********
+************************************************/
+
+.slider-section{
+	width: 100%;
+}
+.slider-section .container-fluid{
+	padding: 0px;
+}
+.carousel-caption{
+	bottom: 30%;
+}
+.inner-carousel h1{
+	font-size: 50px;
+	font-weight: 600;
+	line-height: 50px;
+	text-transform: uppercase;
+	color: #fff;
+}
+.inner-carousel p{
+	color: #a3b1bf;
+	font-size: 14px;
+	line-height: 24px;
+}
+.inner-carousel .btn-div{
+	width: 100%;
+}
+.inner-carousel .btn-div .btn-info{
+	text-transform: uppercase;
+	padding: 10px 30px;
+	font-size: 14px;
+	font-weight: 700;
+	color: #fff;
+	background-color: #00bc9c;
+	border: 1px solid #00bc9c;
+	border-radius: 3px;
+	margin-top: 20px;
+}
+.inner-carousel .btn-div .btn-info:hover{
+	background: transparent;
+	color: #fff;
+	border: 1px solid #fff;
+	transition: 0.5s ease-in;
+}
+.for-align{
+	text-align: right;
+}
+/************************************************
+***************Slider Section Code Ends**********
+*************************************************/
+
+/************************************************
+***************About Section Code Starts*********
+*************************************************/
+
+.about{
+	width: 100%;
+	padding: 80px 0px;
+}
+.about .feature-about{
+	width: 100%;
+}
+.about .feature-about h3{
+	font-size: 28px;
+	line-height: 34px;
+	font-weight: 600;
+	color: #506a85;
+}
+.about .feature-about p{
+	font-size: 14px;
+	font-weight: 400;
+	color: #73879c;
+}
+.about .inner-about{
+	width: 100%;
+	padding: 20px 0px;
+}
+.about .inner-about .media-body h5{
+	font-size: 20px;
+	line-height: 28px;
+	font-weight: 600;
+	color: #506a85;
+	margin-bottom: 18px;
+}
+.about .inner-about .media-body{
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 400;
+	color: #73879c;
+}
+/************************************************
+***************About Section Code Ends***********
+*************************************************/
+
+/************************************************
+***************Figure Section Code Starts********
+*************************************************/
+
+.figure-section{
+	width: 100%;
+	padding: 80px 0px;
+	background: #f2f5f7;
+}
+.figure-section h2{
+	font-size: 32px;
+	line-height: 40px;
+	font-weight: 500;
+	color: #506a85;
+}
+.figure-section p{
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 400;
+	color: #73879c;
+}
+.figure-section .figure-inner{
+	width: 100%;
+	padding: 40px 80px;
+}
+.figure-section .figure-inner .card-title{
+	font-size: 20px;
+	line-height: 28px;
+	font-weight: 500;
+	color: #506a85;
+}
+.figure-section .owl-carousel{
+	padding-top: 60px;
+}
+.figure-section .owl-carousel .item{
+	border: 1px solid #00bc9c;
+}
+/************************************************
+***************Figure Section Code Ends**********
+*************************************************/
+
+/************************************************
+***************Title Section Code Starts*********
+*************************************************/
+
+.title{
+	width: 100%;
+	padding: 80px 0px;
+}
+.title h3{
+	font-size: 26px;
+	line-height: 34px;
+	font-weight: 500;
+	color: #506a85;
+}
+.title p{
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 400;
+	color: #73879c;
+}
+.title .btn-div{
+	width: 100%;
+}
+.title .btn-div .btn-info{
+	text-transform: uppercase;
+	padding: 7px 20px;
+	font-size: 14px;
+	font-weight: 700;
+	color: #fff;
+	background-color: #00bc9c;
+	border: 1px solid #00bc9c;
+	border-radius: 3px;
+	margin-top: 15px;
+}
+.title .btn-div .btn-info:hover{
+	background: transparent;
+	color: #00bc9c;
+	border: 1px solid #00bc9c;
+	transition: 0.5s ease-in;
+}
+/************************************************
+***************Title Section Code Ends***********
+*************************************************/
+
+/************************************************
+***************Bottom Section Code Starts********
+*************************************************/
+
+.bottom-section{
+	width: 100%;
+	background: #2f4052;
+	padding: 60px 0px
+}
+.bottom-section .bottom-1 h1{
+	font-size: 30px;
+	line-height: 38px;
+	font-weight: 600;
+	color: #fff;
+	text-transform: uppercase;
+	margin-bottom: 15px;
+}
+.bottom-section .bottom-1 p{
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 400;
+	color: #a3b1bf;
+	margin: 15px 0px;
+}
+.bottom-section .bottom-1 h3{
+	font-size: 18px;
+	line-height: 28px;
+	font-weight: 500;
+	color: #a3b1bf;
+}
+.bottom-section .bottom-2 h1{
+	font-size: 20px;
+	line-height: 30px;
+	font-weight: 600;
+	color: #fff;
+	text-transform: uppercase;
+}
+.bottom-section .bottom-2 img{
+	width: 110%;
+	margin-top: 10px;
+}
+.bottom-section .bottom-3{
+	margin-left: 0px;
+}
+.bottom-section .bottom-3 h1{
+	font-size: 20px;
+	line-height: 30px;
+	font-weight: 600;
+	color: #fff;
+	text-transform: uppercase;
+}
+.bottom-section .bottom-3 p{
+	font-size: 14px;
+	font-weight: 400;
+	color: #a3b1bf;
+}
+.bottom-section .bottom-3 ul li{
+	list-style: none;
+}
+.bottom-section .bottom-3 ul li i{
+	margin-right: 5px;
+	color: #a3b1bf;
+	font-size: 18px;
+}
+.bottom-section .bottom-4{
+	width: 100%;
+}
+.bottom-section .bottom-4 h3{
+	font-size: 20px;
+	line-height: 26px;
+	font-weight: 600;
+	color: #fff;
+	text-transform: uppercase;
+}
+.bottom-section .bottom-4 p{
+	font-size: 14px;
+	font-weight: 400;
+	color: #a3b1bf;
+}
+.form-group .form-control{
+	width: 250px;
+	padding: 20px 0px;
+	position: relative;
+	background: #4e5c6c;
+	color: #999;
+	font-size: 10px;
+	border: none;
+}
+.form-group .btn-info{
+	position: absolute;
+	background: #00bc9c;
+	padding: 5px 8px;
+	color: #fff;
+	text-transform: uppercase;
+	left: 60%;
+	font-size: 14px;
+}
+.form-group .btn-info:hover{
+	transition: 0.5s ease-in;
+	color: #00bc9c;
+	background: transparent;
+}
+/************************************************
+***************Bottom Section Code Ends**********
+*************************************************/
+
+/************************************************
+***************Footer Section Code Starts********
+*************************************************/
+
+.footer-section{
+	width: 100%;
+	padding: 20px 0px;
+	background: #283645;
+}
+.footer-section p{
+	font-size: 16px;
+	font-weight: 400;
+	color: #616f7d;
+}
+.footer-section ul li{
+	display: inline-block;
+	list-style: none;
+	margin-right: 10px;
+	color: #616f7d;
+	font-size: 16px;
+	font-weight: 400; 
+}
+/************************************************
+***************Footer Section Code Ends**********
+*************************************************/

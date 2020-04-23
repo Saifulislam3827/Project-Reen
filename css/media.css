@@ -1,0 +1,174 @@
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 575px) {
+
+.carousel-item img{
+	height: 1%;
+}
+.carousel-caption{
+	top: 30%;
+	bottom: 0;
+}
+.inner-carousel h1{
+	font-size: 20px;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: #fff;
+}
+.inner-carousel p{
+	color: #a3b1bf;
+	line-height: 24px;
+}
+.inner-carousel .btn-div{
+	width: 100%;
+}
+.inner-carousel .btn-div .btn-info{
+	text-transform: uppercase;
+	padding: 10px 30px;
+	font-size: 14px;
+	font-weight: 700;
+	color: #fff;
+	background-color: #00bc9c;
+	border: 1px solid #00bc9c;
+	border-radius: 3px;
+}
+.inner-carousel .btn-div .btn-info:hover{
+	background: transparent;
+	color: #fff;
+	border: 1px solid #fff;
+	transition: 0.5s ease-in;
+}
+.for-align{
+	text-align: right;
+}
+.figure-section h2{
+	font-size: 23px;
+	line-height: 32px;
+	font-weight: 500;
+	color: #506a85;
+}
+.figure-section .figure-inner{
+	width: 100%;
+	padding: 0;
+}
+.bottom-section .bottom-2 img{
+	width: 100%;
+	margin-top: 10px;
+}
+.form-group .form-control{
+	width: 260px;
+	padding: 20px 30px;
+	position: relative;
+	background: #4e5c6c;
+	color: #999;
+	font-size: 14px;
+	border: none;
+}
+.form-group .btn-info{
+	position: absolute;
+	background: #00bc9c;
+	padding: 5px 10px;
+	color: #fff;
+	text-transform: uppercase;
+	left: 170px;
+	bottom: 13%; 
+	font-size: 14px;
+}
+
+}
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+.header-section .main-header img{
+    vertical-align: middle;
+    border-style: none;
+    margin-left: 0px;
+}
+.carousel-caption{
+	bottom: 2%;
+}
+.inner-carousel h1{
+	font-size: 20px;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: #fff;
+}
+.inner-carousel p{
+	color: #a3b1bf;
+	line-height: 24px;
+}
+.bottom-section .bottom-2 img{
+	width: 100%;
+	margin-top: 10px;
+}
+.form-group .form-control{
+	width: 260px;
+	padding: 20px 30px;
+	position: relative;
+}
+.form-group .btn-info{
+	position: absolute;
+	left: 170px;
+	bottom: 2%; 
+}
+
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 991px){
+
+.carousel-caption{
+	bottom: 10%;
+}
+.figure-section .figure-inner{
+	width: 100%;
+	padding: 0;
+}
+.form-group .form-control{
+	width: 180px;
+	padding: 20px 0px;
+	position: relative;
+}
+.form-group .btn-info{
+	position: absolute;
+	left: 100px;
+	bottom: 52%; 
+}
+
+
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+.header-section .main-header .navbar-light .navbar-nav .nav-link {
+    color: #506a85;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-left: 0px;
+}
+.form-group .form-control{
+	width: 230px;
+}
+.form-group .btn-info{
+	left: 140px;
+}
+
+
+
